@@ -118,7 +118,8 @@ body {
   section ul {
     list-style-type: square;
   }
-  .lighted{
+  .lighted
+  {
     color:#ff6d9c;
   }
 
@@ -138,9 +139,14 @@ body {
     opacity: 50%;
   }
 
+  .listSkills{
+    color: #c2a9f1;
+  }
+
   @media all and (max-width: 820px){
     header,
-    section,
+    section, 
+    .skills,
     .education .school
     {
       display: block;
