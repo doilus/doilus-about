@@ -142,7 +142,22 @@ body {
   .listSkills{
     color: #c2a9f1;
   }
+  .projects{
+    display: grid;
+    grid-template-columns: 200px auto;
+  }
 
+  .projects .projectInfo{
+    grid-column: 2;
+    color: #c2a9f1;
+  }
+  .projects span{
+    color: #ff6d9c;
+    text-decoration: underline;
+  }
+  .listInterests{
+    list-style-type: none;
+  }
   @media all and (max-width: 820px){
     header,
     section, 
