@@ -150,19 +150,35 @@ body {
   .projects .projectInfo{
     grid-column: 2;
     color: #c2a9f1;
+    font-size: 13px;
+    padding-bottom: 30px;
   }
-  .projects span{
+
+  .projects .projectInfo span{
+    color: #ff6d9c;
+  }
+  .projects .projectName{
     color: #ff6d9c;
     text-decoration: underline;
   }
   .listInterests{
     list-style-type: none;
+    display: grid;
+    grid-template-columns: 40px auto;
+
+  }
+  .listInterests i{
+    color:#ff6d9c;
+    margin-top: auto;
+    margin-bottom: auto;
+    
   }
   @media all and (max-width: 820px){
     header,
     section, 
     .skills,
-    .education .school
+    .education .school,
+    .projects
     {
       display: block;
     }
