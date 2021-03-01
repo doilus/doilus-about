@@ -47,6 +47,12 @@ body {
     grid-row: 1/span 3;
     margin-top:  auto;
     margin-bottom:  auto;
+    
+  }
+
+  .myImage img{
+    width:83px;
+    height:auto;
   }
   
   h1 {
@@ -169,7 +175,7 @@ body {
   }
   .listInterests i{
     color:#ff6d9c;
-    margin-top: auto;
+    margin-top: 5px;
     margin-bottom: auto;
     
   }
@@ -195,6 +201,7 @@ body {
     .education .description{
       padding-left: 0;
     }
+    
     
   }
 
